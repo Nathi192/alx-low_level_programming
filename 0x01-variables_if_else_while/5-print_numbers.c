@@ -2,20 +2,20 @@
 
 
 /**
- * main - program that prints all single digit numbers
+ * main - program that prints the alphabet in lowercase and upper case
  *
  * Return: Always 0.
  */
 
 int main(void)
 {
-	char num;
+	char letter;
 
-	for (num = '0'; num <= '10'; num++)
+	for (letter = 'a'; letter <= 'z'; letter++)
 
 	{
-	if (num != '5' && num != '9')
-	putchar(num);
+	if (letter != 'e' && letter != 'q')
+	putchar(letter);
 	}
 
 	putchar('\n');
